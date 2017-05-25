@@ -1,0 +1,121 @@
+.user_head {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+    float: left;
+    margin: 10px;
+}
+
+.user_head a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.login_area {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mar_r15 {
+    margin-right: 15px;
+}
+
+.user_info {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ddd;
+}
+
+.language {
+    position: absolute;
+    right: -100px;
+    top: 70px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100px;
+    color: #fff;
+}
+
+.language ul li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.user_name {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 70px;
+    float: left;
+}
+
+.link_li {
+    display: block;
+    padding: 5px 0 5px 15px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: content-box;
+}
+
+.back_home {
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.menu {
+    position: relative;
+    left: -200px;
+    height: calc(100% - 60px);
+    width: 200px;
+    z-index: 2;
+    background: #ccc;
+    float: left;
+}
+
+.menu_item ul {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.menu_item ul li {
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.menu_item ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hideAnimate {
+    animation: Hide .5s ease-in-out forwards;
+}
+
+.showAnimate {
+    animation: Show .5s ease-in-out forwards;
+}
+
+@keyframes Hide {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -200px;
+    }
+}
+
+@keyframes Show {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 0px;
+    }
+}

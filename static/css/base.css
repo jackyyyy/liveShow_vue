@@ -1,0 +1,47 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style-type: none;
+    display: block;
+    box-sizing: content-box;
+}
+
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: left;
+    padding: 10px;
+}
+
+.zb_item {
+    flex: 0 0 50%;
+}
+
+.zb_item img {
+    width: 90%;
+    height: 100%;
+}
