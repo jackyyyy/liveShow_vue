@@ -1,0 +1,97 @@
+
+.user_detail {
+}
+
+.user_photo {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  margin: 30px auto;
+}
+
+.user_photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.tab_menu {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab_menu ul {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+}
+
+.tab_menu ul li {
+  flex: 1;
+  display: inline-block;
+  float: left;
+  border-right: 1px solid #ddd;
+}
+
+.user_info_detail, .user_info_album {
+  padding: 20px;
+}
+
+.user_info_detail ul li {
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.user_info_detail ul li span {
+  display: block;
+  float: left;
+}
+
+.user_info_detail ul li .item_name {
+  width: 100px;
+  text-align: right;
+}
+
+.user_info_detail ul li .item_value {
+  width: 200px;
+  text-align: left;
+}
+
+.user_info_album ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  align-items: left;
+}
+
+.user_info_album ul li {
+  flex: 0 0 33%;
+  max-height: 120px;
+}
+
+.user_info_album ul li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.friend_nav {
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+}
+
+.friend_nav li {
+  flex: 1;
+}
+
+.friend_list li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 0 20px;
+}
